@@ -1,0 +1,114 @@
+body {
+    background-color:#f4f4f4;
+  }
+  
+  /******
+  header
+  *****/
+  
+  .header {
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 10px 0;
+    background-color: #5a44ff;
+    width: 100%;
+    top: 0px;
+  }
+  
+  .header h1 {
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: 36px;
+  }
+  
+  .header input[type=text] {
+    width: 50%;
+    height: 25px;
+    border-radius: 32px;
+    text-align: center;
+    font-size: 16px;
+    background-color: white;
+  }
+  
+  /******
+  results
+  ******/
+  
+  .results-container {
+    padding-top: 160px;
+  }
+  
+  .results-item {
+    background-color: white;
+    padding: 1px 0;
+    margin: 8px auto;
+    width: 60%;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  /*****
+  modal
+  ****/
+  
+  .modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  .modal-content {
+    background-color: #f4f4f4;
+    margin: 20% auto;
+    padding: 20px;
+    width: 70%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+  }
+  
+  .closeBtn {
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+  }
+  
+  .closeBtn:hover, .closeBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .synonyms {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .label {
+    font-style: italic;
+    color: #5a44ff;
+  }
+  
+  .error {
+    padding-left: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  
+  /*****
+  mobile img
+  
+  https://img.wikinut.com/img/275xh.uk-572ll3t/jpeg/0/Pen-and-pad.jpeg
+  
+  
+  desktop img
+  
+  
+  
